@@ -1,0 +1,506 @@
+
+*{
+    margin: 0;
+     padding: 0;
+      /* border: 1px solid red;  */
+     
+}
+body{
+background-color: white;
+overflow-x: hidden;
+}
+.head{
+    background-color: white;
+    padding: 0;
+    display: flex;
+}
+.head h1{
+    font-size: 30px;
+    display: relative;
+    margin-top: 15px;
+    
+}
+.head img{
+  /* margin-top: 10px; */
+  height: 100px;
+}
+.a{
+  position: relative;
+  margin-bottom: 5px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+     background-color: blue;
+    color: white; 
+    text-align: center;
+    
+}
+nav ul li{
+    display: flex;
+    text-align: center;
+}
+.container{
+background-image: url('back.jpg');
+background-repeat: no-repeat;
+height: 500px;
+background-size: cover;
+z-index: -1;
+transition: 1ms;
+}
+.logio{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    
+}
+nav ul a{
+    padding: 0 65px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 17px;
+    
+}
+nav ul a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+div B h1{
+    color: blue;
+    display: block;
+    width: 100%;
+    
+}
+td{
+    border: 0;
+}
+.in{
+display: block;
+width: 100vh;
+position: relative;
+top:120px ;
+left: 80px;
+font-size: 40px;
+}
+ .hero{
+    height: 65vh;
+    /* background-color: blue; */
+   display: flex;
+   flex-direction: column;  
+   align-items: center;
+  justify-content: center; 
+   color:black;
+}
+ table {
+    width: 750px;
+     overflow: scroll; 
+     border: 1px solid black;
+    margin-bottom: 2rem;
+    height: 400px;
+  }  
+  .l{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 500px;
+    background-color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .b{
+    background-color: blue;
+  }
+  .c{
+    margin-top: 20px;
+     font-size: 30px;
+     margin-bottom: 50px;
+  }
+  .z{
+    text-align: center;
+  }
+  .d {
+    margin-bottom: 4rem;
+  }
+  .d h1 {
+    text-align: center;
+    margin: 4rem;
+    color: black;
+  }
+  .d .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .e {
+    box-shadow: var(--shadow);
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2rem;
+    border: 1px solid blue;
+  }
+  
+  .e .f {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .e .g {
+    margin: 20px;
+    color: var(--web-color);
+  }
+  
+  .e .h {
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .heading2 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .contact-section {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+  
+  .contact > .left {
+    width: 60%;
+    background-color: blue;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .left ul {
+    padding: 0;
+  }
+  .left li {
+    align-items: flex-start;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  .left h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+  }
+  .left a {
+    margin-left: 10px;
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s;
+  }
+  
+  .left a:hover {
+    transform: scale(1.1);
+  }
+  
+  .contact .right form {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: blue;
+    flex-direction: column;
+    width: 350px;
+    max-width: 95vw;
+    
+    position: relative;
+  }
+  
+  .contact .right form div {
+    margin-bottom: 10px;
+  }
+  .contact .right form div label {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: white;
+    font-size: small;
+  }
+  .contact .right form div input {
+    display: block;
+    width: 100%;
+    height: 40px;
+  }
+  .contact .right form div textarea {
+    display: block;
+    width: 100%;
+  }
+  .video {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    overflow: hidden;
+    /* position: relative; */
+  }
+  .video > iframe {
+    max-width: 95%;
+    border-radius: 20px;
+    box-shadow: --shadow;
+  }
+  .video hr {
+    width: 100vw;
+    color: blue;
+    border: 28px solid;
+    z-index: -1;
+  }
+  .last {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .last a {
+    color: blue;
+  }
+  .FAQ hr{
+    
+    color: blue;
+    border: 1px solid;
+    margin-left: 14vw;
+    width: 67vw;
+    
+  }
+  /* main faq */
+  .FAQ hr{
+    width: 62vw;
+  }
+  .FAQ div h1{
+    font-size: 25px;
+    width: 70%;
+    cursor: pointer;
+  }
+   /* faq 1st */
+  .lol_1{
+    display: flex;
+    padding-left: 14vw;
+    color: blue;
+    align-items: center;
+    
+  }
+  .lol_1 i{
+    color: blue;
+    background-color: white;
+  }
+  #event_1{
+    cursor: pointer;
+  }
+  
+  #hide_1{
+    width: 62vw;
+    margin-left: 14vw;
+    display: none;
+    
+  }
+  .lol_1 :hover{
+    color: black;
+  }
+  #hide_1 h3{
+    color: blue;
+  }
+
+  /* faq 2nd */
+  .lol_2{
+    display: flex;
+    padding-left: 14vw;
+    color: blue;
+    align-items: center;
+    
+  }
+  .lol_2 i{
+    color: blue;
+    background-color: white;
+  }
+  #event_2{
+    cursor: pointer;
+  }
+  
+  #hide_2{
+    width: 62vw;
+    margin-left: 14vw;
+    display: none;
+    
+  }
+  .lol_2 :hover{
+    color: black;
+  }
+  #hide_2 h3{
+    color: blue;
+  }
+  /* faq 3rd */
+  .lol_3{
+    display: flex;
+    padding-left: 14vw;
+    color: blue;
+    align-items: center;
+    
+  }
+  .lol_3 i{
+    color: blue;
+    background-color: white;
+  }
+  #event_3{
+    cursor: pointer;
+  }
+  
+  #hide_3{
+    width: 62vw;
+    margin-left: 14vw;
+    display: none;
+    
+  }
+  .lol_3 :hover{
+    color: black;
+  }
+  #hide_3 h3{
+    color: blue;
+  }
+  /* faq 4th */
+  .lol_4{
+    display: flex;
+    padding-left: 14vw;
+    color: blue;
+    align-items: center;
+    
+  }
+  .lol_4 i{
+    color: blue;
+    background-color: white;
+  }
+  #event_4{
+    cursor: pointer;
+  }
+  
+  #hide_4{
+    width: 62vw;
+    margin-left: 14vw;
+    display: none;
+    
+  }
+  .lol_4 :hover{
+    color: black;
+  }
+  #hide_4 h3{
+    color: blue;
+  }
+  /* faq 5th */
+  .lol_5{
+    display: flex;
+    padding-left: 14vw;
+    color: blue;
+    align-items: center;
+    
+  }
+  .lol_5 i{
+    color: blue;
+    background-color: white;
+  }
+  #event_5{
+    cursor: pointer;
+  }
+  
+  #hide_5{
+    width: 62vw;
+    margin-left: 14vw;
+    display: none;
+    
+  }
+  .lol_5 :hover{
+    color: black;
+  }
+  #hide_5 h3{
+    color: blue;
+  }
+  #main{
+    display: flex;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    align-items: center;
+    width:100%;
+  }
+  /* #main *{
+    border:1px solid ;
+  } */
+  #sbarr{
+    /* display: flex; */
+    /* margin-top: 250px; */
+    width: 10%;
+    /* padding-left: 230px; */
+    justify-self: flex-end;
+    color: blue;
+    cursor: pointer;
+    /* border:1px solid red; */
+    text-align: center;
+
+
+    /* border: solid 1px red; */
+  }
+   i:hover{
+    color: black !important;
+  }
+  #sbarl{
+    /* margin-top: 250px; */
+    width: 10%;
+    color: blue;
+    cursor: pointer;
+    /* margin-left: 10px; */
+    /* border:1px solid red; */
+    text-align: center;
+  }
+  .slides{
+      display:block;
+    /* margin-left: 17vw; */
+      width: 80%;
+      text-align: center;
+      justify-content: center;
+  }
+
+  #slide_2{
+    display: none;
+  }
+  #slide_3{
+    display: none;
+  }
+  #slide_4{
+    display: none;
+  }
+  #slide_5{
+    display: none;
+  }
+  .txt h2{
+    color: blue;
+  }
+  .photo{
+    text-align: center;
+  margin-top: 20px;
+    /* height: 50px; */
+    /* border: solid 1px red; */
+  }
+  .txt{
+    padding-top: 50px;
+    /* border: solid 1px black; */
+  }
+  .heading_slider{
+    font-size: 4rem;
+  }
